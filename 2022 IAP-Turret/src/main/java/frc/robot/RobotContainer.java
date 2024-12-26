@@ -63,6 +63,7 @@ public static Joystick GetJoy2() {
    */
   public Command getAutonomousCommand() {
     // An ExampleCommand will run in autonomous
+    // this is the code from comman that will run!! SUPER IMPORTANT!!!!
     return proto;
   }
 }

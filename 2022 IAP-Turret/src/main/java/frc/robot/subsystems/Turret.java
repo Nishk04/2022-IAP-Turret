@@ -50,7 +50,7 @@ public class Turret extends SubsystemBase {
   }
 
   public double getAngle(){
-    return motor.getSelectedSensorPosition() * 360 / (4096.0);
+    return motor.getSelectedSensorPosition() * 360 / (4096.0) / (5.75);
   }
 
   public double getCW_Forward_LimitSw() {
